@@ -1,0 +1,179 @@
+* {
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "concentrica";
+    src: url("../fonts/concentrica-v2.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "ornamented";
+    src: url("../fonts/varfontDecorated.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "prismatic";
+    src: url("../fonts/prismatic-one.woff2") format('woff2-variations');
+    font-weight: normal;
+    font-style: normal;
+}
+html {
+    width: 100%;
+    overflow-x: hidden;
+}
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #242217;
+    width: 100%;
+    overflow: hidden;
+
+}
+p {
+    margin: 0;
+}
+.block {
+    height: 100vh;
+    width: 100vw;
+    background-color: brown;
+    padding: 4em 3em 0;
+    position: relative;
+}
+.wrapper {
+    position: relative;
+    display: block;
+    height: 100%;
+    width: auto;
+}
+.wrapper-columns {
+    display: flex;
+}
+.wrapper-columns img {
+    display: inline-flex;
+}
+.h-half {
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+}
+.h-half img {
+    width: 100%;
+}
+.h-half .copy .title {
+    font-family: "concentrica";
+    font-size: 3em;
+    color: #c6c3b1;
+}
+.h-half .copy .text {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.2em;
+    color: #d1c559;
+    line-height: 1.6;
+    letter-spacing: ;
+}
+.caption {
+    width: 50%;
+    position: absolute;
+    bottom: 0;
+}
+.hero__title {
+    font-size: 25em;
+    font-family: "concentrica";
+    color: #242217;
+    line-height: .8;
+    margin-left: -15px;
+}
+.hero__text {
+    font-size: 4em;
+    font-family: "concentrica";
+    color: #f8ed86;
+    line-height: 1.1;
+}
+.hero-caption {
+    font-size: 1em;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-bottom: 2em;
+    border-bottom: 15px solid #242217;
+    line-height: 1.5;
+}
+.divider {
+    position: absolute;
+    height: auto;
+    width: 100%;
+    bottom: -110px;
+    left: -200px;
+    font-family: "concentrica";
+    font-size: 200px;
+    z-index: 100;
+    color: #312e0c;
+}
+.bg-green{
+    background-color: #787129;
+}
+.bg-dark {
+    background-color: #242217;
+}
+.bg-whitish {
+    background-color: #c6c3b1;
+}
+.c-yellow {
+    color: #f8ed86;
+}
+.c-whitish {
+    color: #c6c3b1;
+}
+.c-dark {
+    color: #242217;
+}
+.c-green {
+    color: #787129;
+}
+.padding-lateral {
+    padding: 0 3em;
+}
+
+.prismatic {
+    font-family: "prismatic";
+    text-align: center;
+    font-size: 20em;
+    line-height: 1.5;
+}
+.prismatic div {
+    display: inline-block;
+    font-variation-settings: "wght" 200;
+    transition: all ease 1s;
+}
+.prismatic div:hover {
+    transition: all ease 1s;
+    font-variation-settings: "wght" 100;
+}
+.ornamented {
+    font-family: "ornamented";
+    font-size: 30em;
+    font-variation-settings: ;
+}
+.concentrica {
+    font-family: "concentrica", sans-serif;
+    font-size: 16em;
+    text-align: center;
+    color: rgb(216, 71, 18);
+}
+.concentrica-spec {
+    font-family: "concentrica", sans-serif;
+    font-size: 6em;
+    text-align: center;
+    text-align: center;
+}
+.section {
+    font-family: 'Roboto Condensed', sans-serif !important;
+}
+h1.red {
+    font-family: "concentrica";
+    text-align: center;
+    font-weight: normal;
+    color: #FF704F;
+    line-height: auto;
+    padding-top: 45px;
+}
